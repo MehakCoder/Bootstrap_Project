@@ -12,6 +12,10 @@
 body{
      background: gray;
 }
+p{
+    margin: 0;
+}
+
 #header{
       background: orange;
       padding: 10px 0 10px;
@@ -31,6 +35,7 @@ body{
     background: white;
     padding: 3px 0px;
 }
+
 #sidebar{
     background: lightblue;
     padding: 3px 0px;
@@ -38,8 +43,8 @@ body{
 }
 #sidebar ul {
     list-style: none;
-       min-height: 5px;
-       height: 283px;
+    padding-inline-end: 10px;
+  
 }
 #footer{
     background: orange;
