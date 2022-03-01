@@ -9,3 +9,31 @@
 .col-lg,.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
     border: 3px solid green;
 }
+body{
+    background: grey;
+}
+
+#header{
+     background: orange;
+     padding: 10px 0 10px 10px;
+}
+#Menu{
+    background: pink;
+    padding: 3px 0;
+}
+#Menu ul{
+    list-style: none;
+    margin: 0;
+}
+#Menu ul li{
+    display: inline-block;
+} 
+#content{
+    background: wheat;
+}
+#Sidebar{
+background: lightblue;
+}
+#footer{
+    background: orange;
+}
